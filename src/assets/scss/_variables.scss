@@ -1,0 +1,23 @@
+@import url('//fonts.googleapis.com/css?family=Lato:400,700');
+@import url('//pro.fontawesome.com/releases/v5.3.1/css/all.css');
+
+@font-face {
+  font-family: 'spacegrotesk';
+  src: url('../fonts/SpaceGrotesk-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'spacegrotesk';
+  src: url('../fonts/SpaceGrotesk-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+$main-text: #40545a;
+$muted-text: rgb(115, 117, 122);
+$theme-color: #EBF6FC;
+$dirty-white: #e9e9e9;
+$primary-font: Avenir Next, "Lato", sans-serif;
+$spacegrotesk-font: 'spacegrotesk', sans-serif;

@@ -1,0 +1,256 @@
+@import "_variables.scss";
+@import url('https://fonts.googleapis.com/css?family=Dosis:600,700|Niramit:400,600,700&subset=latin-ext');
+
+body {
+  background-color: #ffffff;
+  color: $main-text;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $primary-font;
+  font-weight: 500;
+  margin: 0;
+}
+
+%text-shadow {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+}
+
+.back-top-container {
+  .back-top {
+    background: #1f2024;
+    text-align: center;
+    padding: 3px 0;
+
+    &:hover {
+      background: #17181b;
+
+    }
+  }
+  a {
+    font-size: 0.8rem;
+    color: #848484 !important;
+    i {
+      font-size: 0.9em;
+      margin-right: 5px;
+    }
+    &:hover {
+      color: #afafaf !important;
+      text-decoration: none;
+    }
+  }
+}
+
+.back-link {
+  margin: 3rem 0;
+}
+
+.post {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  .post-header {
+    margin-top: 3.2rem;
+    margin-bottom: 2.8rem;
+    width: 95%;
+  }
+
+  .post-title {
+    font-size: 38px;
+    font-family: 'Dosis' !important;
+    margin-bottom: 2rem;
+
+  }
+
+  .post-tags {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .post-date {
+    color: #666;
+    font-size: 14px;
+  }
+
+  h2 {
+    margin-top: 1.4em;
+    margin-bottom: 0.8em;
+    font-family: 'Dosis' !important;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  article {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 95%;
+    text-align: justify;
+  }
+
+  img {
+
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+
+    &:after {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 255, 0, 0.5);
+    }
+
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+@media (min-width: 768px) {
+  .post {
+    .post-header {
+      width: 50%;
+    }
+    article {
+      width: 50%;
+    }
+  }
+}
+
+.post-share {
+  background-color: #f2f2f2;
+  border-radius: 0.2rem;
+  border: #d0d0d0 solid 1px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  h1 {
+    color: black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  a {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.btn-share {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: $dirty-white;
+  font-weight: 600;
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+  i {
+    color: inherit !important;
+  }
+}
+
+.btn-reddit {
+  background-color: #FF4320;
+}
+
+.btn-reddit:hover {
+  color: #FF4320;
+  background-color: $dirty-white;
+}
+
+.btn-twitter {
+  background-color: #5DAEE9;
+}
+
+.btn-twitter:hover {
+  background-color: $dirty-white;
+  color: #5DAEE9;
+}
+
+.btn-facebook {
+  background-color: #3D5A96;
+}
+
+.btn-facebook:hover {
+  background-color: $dirty-white;
+  color: #3D5A96;
+}
+
+.header {
+  background: radial-gradient(
+                  rgba(0, 0, 0, 0.6),
+                  rgba(0, 0, 0, .9)
+  ), url("../img/header.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 20vh 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  @extend %text-shadow;
+  font-family: 'Dosis';
+
+  h1 {
+    font-size: 1.4rem;
+  }
+  img {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    width: 180px;
+    height: 100%;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 20vh 20vw;
+  }
+
+}
+
+.post-item {
+  @extend %text-shadow;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  width: 100%;
+  height: 80vh;
+  background-size: cover !important;
+  background-position: center !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+
+  .content-container {
+    width: 50%;
+    text-align: center;
+  }
+
+  font-family: 'Dosis';
+  h1 {
+    font-size: 3rem;
+    color: white !important;
+    margin-bottom: 1em;
+  }
+  h5 {
+    font-size: 1.4rem;
+    color: whitesmoke;
+  }
+
+}
