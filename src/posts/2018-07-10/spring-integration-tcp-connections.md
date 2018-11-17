@@ -1,5 +1,5 @@
 ---
-path: "/spring-integration/"
+path: "/spring-integration"
 title: Spring&nbsp;Integration - sending TCP messages to&nbsp;IoT&nbsp;devices
 date: 2018-05-17
 image: "./spring-react.jpg"

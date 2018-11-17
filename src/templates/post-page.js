@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from 'react';
 
 import Layout from '../components/Layout';
 import Helmet from 'react-helmet';
 import SharePost from '../components/SharePost';
 import Header from '../components/Header';
 import 'prismjs/themes/prism-tomorrow.css';
-import { Link } from 'gatsby';
+import {Link} from 'gatsby';
 
 const PostPage = ({ data }) => {
   const post = data.markdownRemark;

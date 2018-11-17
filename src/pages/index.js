@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/scss/post.scss';
+import '../assets/scss/index.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/Layout';
 import Post from '../components/Post';
@@ -7,8 +7,6 @@ import Header from '../components/Header';
 
 const IndexPage = ({ data }) => {
   const edges = data.allMarkdownRemark.edges;
-
-  console.log(data);
   return (
     <Layout>
       <Header />

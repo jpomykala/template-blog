@@ -1,9 +1,9 @@
 ---
-path: "/websocket-authentication/"
+path: "/websocket-authentication"
 title: Authenticated websocket connection with Spring Boot and ReactJS
 date: 2018-05-17
 image: "./spring-react.jpg"
-categories: [spring-framework, java, reactjs, websockets, spring-boot]
+categories: [programming, spring-framework, java, reactjs, websockets, spring-boot]
 ---
 
 Websockets are an easy way to update data on clients side without making request to server where there is no new data. 

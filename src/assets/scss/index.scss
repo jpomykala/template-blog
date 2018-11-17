@@ -1,0 +1,77 @@
+@import "_variables.scss";
+@import "post.scss";
+
+body {
+  background-color: #ffffff;
+  color: $main-text;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $primary-font;
+  font-weight: 500;
+  margin: 0;
+}
+
+.back-top-container {
+  .back-top {
+    background: #1f2024;
+    text-align: center;
+    padding: 3px 0;
+
+    &:hover {
+      background: #17181b;
+
+    }
+  }
+  a {
+    font-size: 0.8rem;
+    color: #848484 !important;
+    i {
+      font-size: 0.9em;
+      margin-right: 5px;
+    }
+    &:hover {
+      color: #afafaf !important;
+      text-decoration: none;
+    }
+  }
+}
+
+.back-link {
+  margin: 3rem 0;
+}
+
+.header {
+  background: radial-gradient(
+                  rgba(0, 0, 0, 0.6),
+                  rgba(0, 0, 0, .9)
+  ), url("../img/header.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 20vh 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Dosis';
+
+  h1 {
+    @extend %text-shadow;
+    font-size: 1.4rem;
+  }
+  img {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    width: 180px;
+    height: 100%;
+  }
+
+  p {
+    @extend %text-shadow;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 20vh 20vw;
+  }
+
+}
