@@ -13,44 +13,43 @@
     width: 95%;
   }
 
-  .post-title {
-    font-size: 38px;
-    font-family: 'Dosis' !important;
-    margin-bottom: 2rem;
-
+  &__title {
+    font-size: 36px;
+    font-family: $primary-font !important;
+    color: #515151;
+    font-weight: 400;
   }
 
-  .post-tags {
+  &__tags {
     font-size: 12px;
-    margin-bottom: 1rem;
   }
 
-  .post-date {
-    color: #666;
-    font-size: 14px;
-  }
-
-  h2 {
-    margin-top: 1.4em;
-    margin-bottom: 0.8em;
-    font-family: 'Dosis' !important;
+  &__date {
+    color: #bfbfbf;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem 0;
   }
 
   h2 {
+    margin: 0.9em 0;
+    font-family: $primary-font !important;
     font-size: 1.8rem;
   }
 
   article {
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(81, 88, 98);
     width: 95%;
     text-align: justify;
   }
 
-  img {
+  .post__image_header {
 
     width: 100%;
-    height: 60vh;
+    height: 20vh;
     object-fit: cover;
 
     &:after {
@@ -64,13 +63,17 @@
   }
 }
 
+.post-width {
+  width: 45%;
+}
+
 @media (min-width: 768px) {
   .post {
     .post-header {
-      width: 50%;
+      width: 45%;
     }
     article {
-      width: 50%;
+      width: 45%;
     }
   }
 }
@@ -139,7 +142,47 @@
 }
 
 .post-item {
+
+  padding: 40px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-bottom: 1px #f5f5f5 solid;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  &__title {
+    text-align: right;
+    font-size: 18px;
+    margin: 0 0 6px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  &__date {
+    text-align: right;
+    font-size: 12px;
+    line-height: 14px;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  &__excerpt {
+    color: gray;
+    font-size: 16px;
+  }
+
+  &:hover {
+    background: #f8f8ff;
+  }
+
+}
+
+.post-hero {
   @extend %text-shadow;
+
   img {
     width: 100%;
     height: 100%;
@@ -148,7 +191,7 @@
   }
 
   width: 100%;
-  height: 80vh;
+  height: 40vh;
   background-size: cover !important;
   background-position: center !important;
 
@@ -162,13 +205,13 @@
     text-align: center;
   }
 
-  font-family: 'Dosis';
-  h1 {
+  font-family: $heading-font;
+  &__title {
     font-size: 3rem;
     color: white !important;
     margin-bottom: 1em;
   }
-  h5 {
+  &__date {
     font-size: 1.4rem;
     color: whitesmoke;
   }

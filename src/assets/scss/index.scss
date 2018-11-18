@@ -51,7 +51,7 @@ body {
   display: flex;
   justify-content: center;
   color: white;
-  font-family: 'Dosis';
+  font-family: $heading-font;
 
   h1 {
     @extend %text-shadow;
@@ -74,4 +74,40 @@ body {
     padding: 20vh 20vw;
   }
 
+}
+
+.gatsby-highlight pre[class^="language-"] {
+  border-radius: 5px;
+  margin: 24px 0;
+}
+
+.language-text {
+  background: #F8FAFB !important;
+  border: 1px #E5EDF2 solid;
+  border-radius: 5px;
+  color: #666a70 !important;
+  padding: 2px 5px !important;
+}
+
+.page-header {
+  color: rgb(27, 39, 49);
+  font-size: 34px;
+  font-weight: 400;
+  font-family: $primary-font;
+  line-height: 26px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.container {
+  width: 700px !important;
+}
+
+.page__header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+  color: rgb(41, 41, 54);
+  margin-top: 60px;
 }

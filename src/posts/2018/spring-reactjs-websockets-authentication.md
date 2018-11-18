@@ -1,18 +1,20 @@
 ---
 path: "/websocket-authentication"
 title: Authenticated websocket connection with Spring Boot and ReactJS
-date: 2018-05-17
-image: "./spring-react.jpg"
-categories: [programming, spring-framework, java, reactjs, websockets, spring-boot]
+date: 2017-02-17
+image: "./img/spring-react.jpg"
+excerpt: "One of many ways to secure websocket endpoints in Spring application and ReactJS client [outdated]"
+category: programming
+tags: [java, javascript, software-development, spring-framework]
 ---
 
 Websockets are an easy way to update data on clients side without making request to server where there is no new data. 
 It gives "wow effect" for clients and lower server costs for you.
 
 ## Server side - Spring Framework
-We will start from adding proper dependency in ``pom.xml`` on backend side. In my case it latest stable version was ``2.0.2.RELEASE``.
+We will start from adding proper dependency in `pom.xml` on backend side. In my case it latest stable version was `2.0.2.RELEASE`.
 
-```
+```xml{}
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-websocket</artifactId>
@@ -20,13 +22,11 @@ We will start from adding proper dependency in ``pom.xml`` on backend side. In m
 ```
     
 Basic websockets configuration in Spring is easy as copy-paste configuration files and handle connection on client side.
-Create new configuration class annotated with ``@Configuration`` and ``@EnableWebSocketMessageBroker`` and extend it with 
+Create new configuration class annotated with `@Configuration` and `@EnableWebSocketMessageBroker` and extend it with 
 ``AbstractWebSocketMessageBrokerConfigurer``.
 
 
-
-
-<pre class="language-java">
+```java{}{}
 @Autowired
 private ThreadPoolTaskScheduler threadPoolTaskScheduler;
 
@@ -45,7 +45,7 @@ public void registerStompEndpoints(StompEndpointRegistry registry) {
       .withSockJS()
       .setTaskScheduler(threadPoolTaskScheduler);
 }
-</pre>
+```
 
 Remember to provide ```TaskScheduler``` which is required to sending messages. 
 In above example I also configured CORS by using list of allowed origins from ```*.yml``` configuration.
@@ -54,8 +54,7 @@ In above example I also configured CORS by using list of allowed origins from ``
 Unfortunelty as far as I know Spring websockets does not support authentication, so we need to implement it on our own. 
 I came up with very simple idea, I'm authenticating user on ``SessionSubscribeEvent``.
 
-```
-
+```java{}
 @EventListener(SessionSubscribeEvent.class)
 public void onWebSocketSessionsConnected(SessionSubscribeEvent event) {
   Message<byte[]> eventMessage = event.getMessage();
@@ -85,8 +84,7 @@ to send updates with ease to connected companies from any place in code.
 In my case I'm sending update to dashboard page on every new transaction for company.
 Every user subscribe his company message channel and get update on every transaction or alert if occurred.
 
-```
-
+```java{}
 @Autowired
 private SimpMessagingTemplate webSocket;
 	
@@ -122,8 +120,7 @@ On client side I'm using two additional depedencies, one for sockJs and second f
 
 [https://github.com/JSteunou/webstomp-client](https://github.com/JSteunou/webstomp-client)
 
-```
-
+```java{}
 import React from "react";
 import SockJS from "sockjs-client";
 import webstomp from "webstomp-client";

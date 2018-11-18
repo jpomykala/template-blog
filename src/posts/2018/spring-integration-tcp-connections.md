@@ -1,9 +1,10 @@
 ---
 path: "/spring-integration"
-title: Spring&nbsp;Integration - sending TCP messages to&nbsp;IoT&nbsp;devices
-date: 2018-05-17
-image: "./spring-react.jpg"
-categories: [spring-framework, iot]
+title: Spring Integration - sending TCP messages to IoT devices
+image: "./img/spring-react.jpg"
+excerpt: "My experience from connecting IoT M2M devices to AWS services and Spring application"
+category: programming
+tags: [java]
 ---
 
 {% highlight java %}
