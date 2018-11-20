@@ -14,8 +14,8 @@ body {
 
 .header {
   background: radial-gradient(
-                  rgba(0, 0, 0, 0.7),
-                  rgba(0, 0, 0, 0.7)
+                  rgba(0, 0, 0, 0.78),
+                  rgba(0, 0, 0, 0.78)
   ), url("../img/header.jpg");
   background-position: center;
   background-size: cover;
@@ -43,7 +43,7 @@ body {
 
 @media (min-width: 768px) {
   .header {
-    padding: 20vh 20vw;
+    padding: 15vh 20vw;
   }
 
 }

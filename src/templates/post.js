@@ -45,12 +45,12 @@ const Post = ({data, pageContext}) => {
             <SharePost post={post}/>
           </div>
 
-          <div className="similar-posts mb-5">
+          {relevantPosts.length !== 0 && <div className="similar-posts mb-5">
             <h1 className="page__header pb-2">Similar posts</h1>
             <PostItemList
               items={relevantPosts}
             />
-          </div>
+          </div>}
 
         </div>
       </div>

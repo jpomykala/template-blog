@@ -82,7 +82,7 @@ exports.createPages = ({actions, graphql}) => {
 
 function findRelevantPosts(node, posts) {
   let relevantPosts = [];
-  const tags = _.get(node, "frontmatter.tags", []);
+  let tags = _.get(node, "frontmatter.tags", []);
   tags.forEach(tag => {
     const tagPosts = posts.filter(({node}) => withTag(node, tag));
     relevantPosts = relevantPosts.concat(tagPosts);
@@ -90,8 +90,14 @@ function findRelevantPosts(node, posts) {
 
   const currentNodePath = node.frontmatter.path;
   relevantPosts = _.uniq(relevantPosts);
-  relevantPosts = relevantPosts.filter(({node}) => withSamePath(node, currentNodePath));
+  relevantPosts = relevantPosts
+    .filter(({node}) => withSamePath(node, currentNodePath))
+    .filter(withDate);
   return relevantPosts;
+}
+
+function withDate(node) {
+  return node.frontmatter.date !== null;
 }
 
 function withTag(node, tag) {
