@@ -4,7 +4,7 @@ const SharePost = ({ post }) => {
   const title = post.frontmatter.title;
   const url = post.frontmatter.path;
   return (
-    <div className="row post-share my-5">
+    <div className="row no-gutters post-share">
       <div className="col-12 justify-content-center text-center">
         <h1>
           <cite>{title}</cite>

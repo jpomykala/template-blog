@@ -4,9 +4,8 @@ const _ = require('lodash');
 exports.createPages = ({actions, graphql}) => {
   const {createPage} = actions;
 
-  const postPageTemplate = path.resolve(`src/templates/post-page.js`);
+  const postPageTemplate = path.resolve(`src/templates/post.js`);
   const tagTemplate = path.resolve("src/templates/tags.js");
-  const categoryTemplate = path.resolve("src/templates/categories.js");
 
   // language=GraphQL
   return graphql(`
@@ -23,7 +22,7 @@ exports.createPages = ({actions, graphql}) => {
                           date(formatString: "YYYY-MM-DD")
                           path
                           title
-                          category
+                          excerpt
                           tags
                           image {
                               publicURL
@@ -45,34 +44,18 @@ exports.createPages = ({actions, graphql}) => {
 
     const posts = result.data.allMarkdownRemark.edges;
     posts.forEach(({node}) => {
+
+      const relevantPosts = findRelevantPosts(node, posts);
+
       createPage({
         path: node.frontmatter.path,
         node: node,
         component: postPageTemplate,
-        context: {},
+        context: {
+          relevantPosts
+        },
       });
     });
-
-    let categories = [];
-    _.each(posts, edge => {
-      const postCategory = _.get(edge, "node.frontmatter.category");
-      if (postCategory) {
-        categories = categories.concat(postCategory)
-      }
-    });
-    categories = _.uniq(categories);
-
-    // Make tag pages
-    categories.forEach(category => {
-      createPage({
-        path: `/category/${_.kebabCase(category)}`,
-        component: categoryTemplate,
-        context: {
-          category
-        },
-      })
-    });
-
 
     // Tag pages:
     let tags = [];
@@ -96,3 +79,25 @@ exports.createPages = ({actions, graphql}) => {
     })
   });
 };
+
+function findRelevantPosts(node, posts) {
+  let relevantPosts = [];
+  const tags = _.get(node, "frontmatter.tags", []);
+  tags.forEach(tag => {
+    const tagPosts = posts.filter(({node}) => withTag(node, tag));
+    relevantPosts = relevantPosts.concat(tagPosts);
+  });
+
+  const currentNodePath = node.frontmatter.path;
+  relevantPosts = _.uniq(relevantPosts);
+  relevantPosts = relevantPosts.filter(({node}) => withSamePath(node, currentNodePath));
+  return relevantPosts;
+}
+
+function withTag(node, tag) {
+  return node.frontmatter.tags.includes(tag);
+}
+
+function withSamePath(node, currentPath) {
+  return node.frontmatter.path !== currentPath;
+}

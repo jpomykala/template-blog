@@ -11,39 +11,11 @@ body {
   margin: 0;
 }
 
-.back-top-container {
-  .back-top {
-    background: #1f2024;
-    text-align: center;
-    padding: 3px 0;
-
-    &:hover {
-      background: #17181b;
-
-    }
-  }
-  a {
-    font-size: 0.8rem;
-    color: #848484 !important;
-    i {
-      font-size: 0.9em;
-      margin-right: 5px;
-    }
-    &:hover {
-      color: #afafaf !important;
-      text-decoration: none;
-    }
-  }
-}
-
-.back-link {
-  margin: 3rem 0;
-}
 
 .header {
   background: radial-gradient(
-                  rgba(0, 0, 0, 0.6),
-                  rgba(0, 0, 0, .9)
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0.7)
   ), url("../img/header.jpg");
   background-position: center;
   background-size: cover;
@@ -109,5 +81,11 @@ body {
   font-size: 40px;
   font-weight: 200;
   color: rgb(41, 41, 54);
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  i {
+    font-size: 0.8em;
+    color: gray;
+  }
 }
