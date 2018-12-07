@@ -97,7 +97,7 @@ function findRelevantPosts(node, posts) {
 }
 
 function withDate(node) {
-  return node.frontmatter.date !== null;
+  return true;
 }
 
 function withTag(node, tag) {
