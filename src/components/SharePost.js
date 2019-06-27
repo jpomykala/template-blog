@@ -2,7 +2,7 @@ import React from 'react';
 
 const SharePost = ({ post }) => {
   const title = post.frontmatter.title;
-  const url = post.frontmatter.path;
+  const url = post.fields.slug;
   return (
     <div className="row no-gutters post-share">
       <div className="col-12 justify-content-center text-center">

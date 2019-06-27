@@ -1,11 +1,13 @@
 const path = require('path');
 const _ = require('lodash');
+const {createFilePath} = require('gatsby-source-filesystem');
+
 
 exports.createPages = ({actions, graphql}) => {
   const {createPage} = actions;
 
-  const postPageTemplate = path.resolve(`src/templates/post.js`);
-  const tagTemplate = path.resolve("src/templates/tags.js");
+  const postPageTemplate = path.resolve(`src/templates/blog-post-template.js`);
+  const tagTemplate = path.resolve("src/templates/blog-tag-template.js");
 
   // language=GraphQL
   return graphql(`
@@ -17,10 +19,12 @@ exports.createPages = ({actions, graphql}) => {
           ) {
               edges {
                   node {
+                      fields {
+                          slug
+                      }
                       html
                       frontmatter {
                           date(formatString: "YYYY-MM-DD")
-                          path
                           title
                           excerpt
                           tags
@@ -39,6 +43,7 @@ exports.createPages = ({actions, graphql}) => {
       }
   `).then(result => {
     if (result.errors) {
+      console.log(result.errors);
       return Promise.reject(result.errors);
     }
 
@@ -48,10 +53,11 @@ exports.createPages = ({actions, graphql}) => {
       const relevantPosts = findRelevantPosts(node, posts);
 
       createPage({
-        path: node.frontmatter.path,
+        path: node.fields.slug,
         node: node,
         component: postPageTemplate,
         context: {
+          slug: node.fields.slug,
           relevantPosts
         },
       });
@@ -73,6 +79,7 @@ exports.createPages = ({actions, graphql}) => {
         path: `/tags/${_.kebabCase(tag)}`,
         component: tagTemplate,
         context: {
+          slug: `/tags/${_.kebabCase(tag)}`,
           tag,
         },
       })
@@ -88,16 +95,11 @@ function findRelevantPosts(node, posts) {
     relevantPosts = relevantPosts.concat(tagPosts);
   });
 
-  const currentNodePath = node.frontmatter.path;
+  const currentNodePath = node.frontmatter.title;
   relevantPosts = _.uniq(relevantPosts);
   relevantPosts = relevantPosts
-    .filter(({node}) => withSamePath(node, currentNodePath))
-    .filter(withDate);
+    .filter(({node}) => withSamePath(node, currentNodePath));
   return relevantPosts;
-}
-
-function withDate(node) {
-  return true;
 }
 
 function withTag(node, tag) {
@@ -105,5 +107,5 @@ function withTag(node, tag) {
 }
 
 function withSamePath(node, currentPath) {
-  return node.frontmatter.path !== currentPath;
+  return node.frontmatter.title !== currentPath;
 }

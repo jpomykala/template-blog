@@ -4,9 +4,9 @@ import PostItem from "./PostItem";
 const PostItemList = ({items = []}) => (
   <Fragment>
     {items.map(({node}) => {
-      const {path} = node.frontmatter;
+      const slug = node.fields.slug;
       return (
-        <PostItem key={path} post={node.frontmatter}/>
+        <PostItem key={slug} link={slug} post={node.frontmatter}/>
       )
     })}
   </Fragment>

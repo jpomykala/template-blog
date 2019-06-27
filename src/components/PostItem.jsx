@@ -1,9 +1,9 @@
 import React from "react";
 import {Link} from "@reach/router";
 
-const PostItem = ({post}) => (
+const PostItem = ({post, link}) => (
   <div className="post-item">
-    <Link to={post.path}>
+    <Link to={link}>
       <div className="row">
         <div className="col-6">
           <h1 className="post-item__title">{post.title}</h1>

@@ -23,7 +23,7 @@
     "gatsby-transformer-sharp": "^2.1.4",
     "lodash": "latest",
     "moment": "^2.22.2",
-    "node-sass": "^4.9.4",
+    "node-sass": "^4.11.0",
     "prismjs": "^1.15.0",
     "prop-types": "latest",
     "react": "^16.5.1",
@@ -35,7 +35,6 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build && aws s3 cp public s3://blog.jpomykala.me --recursive",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"

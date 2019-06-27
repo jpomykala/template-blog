@@ -30,7 +30,7 @@ const Header = () => (
         was downloaded over 3&nbsp;000&nbsp;000&nbsp;times! Now I'm a startup
         guy and{' '}
         <a
-          href="https://jpomykala.me"
+          href="https://jpomykala.com"
           target="_blank"
           rel="noopener noreferrer"
         >

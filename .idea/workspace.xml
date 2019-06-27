@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48fd673b-b9f1-4857-aa92-36966fec7cfb" name="Default Changelist" comment="">
+    <list default="true" id="48fd673b-b9f1-4857-aa92-36966fec7cfb" name="Default Changelist" comment="new post">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/first-post/example-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/first-post/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/second-post/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/blog-post-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/blog-tag-template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostHero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostHero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostItemList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharePost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharePost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/codepipeline-jenkins.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/img/aws-codepipeline.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/img/codebuild-environment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/img/docker-run-mvn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/img/ecr-permissions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/img/pushing-to-ecr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/img/spring-react.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/java-11-codepipeline.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/first-post/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/spring-hoc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/spring-integration-tcp-connections.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/2018/spring-reactjs-websockets-authentication.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/second-post/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/tags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,14 +57,62 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Layout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/posts/first-post/example-image.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/posts/2018/java-11-codepipeline.md">
+        <entry file="file://$PROJECT_DIR$/src/posts/first-post/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -39,12 +120,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/scss/post.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        <entry file="file://$PROJECT_DIR$/src/posts/second-post/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/posts/second-post/header.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/header.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -64,39 +158,28 @@
       <find>$spacegrotesk-font</find>
       <find>```java</find>
       <find>post-item</find>
+      <find>gatsby-source-filesystem</find>
+      <find>.path</find>
+      <find>PostHero</find>
     </findStrings>
     <replaceStrings>
       <replace>```java{}</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="new-post" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/layout.js" />
-        <option value="$PROJECT_DIR$/posts/2018-10-19.md" />
-        <option value="$PROJECT_DIR$/src/templates/Template.jsx" />
-        <option value="$PROJECT_DIR$/posts/2018-07-06-codepipeline-jenkins.md" />
-        <option value="$PROJECT_DIR$/posts/2018-07-07-spring-integration-tcp-connections.md" />
-        <option value="$PROJECT_DIR$/posts/2018-07-08-spring-reactjs-websockets-authentication.md" />
-        <option value="$PROJECT_DIR$/posts/2018-07-06/2018-07-06-codepipeline-jenkins.md" />
-        <option value="$PROJECT_DIR$/posts/2018-07-10/spring-integration-tcp-connections.md" />
-        <option value="$PROJECT_DIR$/posts/2018-07-06/codepipeline-jenkins.md" />
-        <option value="$PROJECT_DIR$/posts/2018/spring-reactjs-websockets-authentication.md" />
-        <option value="$PROJECT_DIR$/src/components/SharePost.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Header.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Post.jsx" />
-        <option value="$PROJECT_DIR$/.prettierrc" />
-        <option value="$PROJECT_DIR$/src/pages/post-page.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/pages/404.js" />
-        <option value="$PROJECT_DIR$/src/components/Layout.js" />
-        <option value="$PROJECT_DIR$/gatsby-browser.js" />
-        <option value="$PROJECT_DIR$/src/templates/tags.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Post.js" />
-        <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/templates/categories.js" />
         <option value="$PROJECT_DIR$/src/pages/categories.js" />
         <option value="$PROJECT_DIR$/src/posts/2018-07-06/codepipeline-jenkins.md" />
@@ -107,28 +190,55 @@
         <option value="$PROJECT_DIR$/src/assets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/src/pages/tags.js" />
         <option value="$PROJECT_DIR$/src/components/HomeLink.jsx" />
-        <option value="$PROJECT_DIR$/src/components/PostItemList.jsx" />
-        <option value="$PROJECT_DIR$/src/components/SharePost.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/index.scss" />
         <option value="$PROJECT_DIR$/src/posts/2018/spring-hoc.md" />
-        <option value="$PROJECT_DIR$/src/posts/2018/spring-integration-tcp-connections.md" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
-        <option value="$PROJECT_DIR$/src/components/PostHero.js" />
-        <option value="$PROJECT_DIR$/src/templates/tags.js" />
-        <option value="$PROJECT_DIR$/src/components/PostItem.jsx" />
-        <option value="$PROJECT_DIR$/src/posts/2018/codepipeline-jenkins.md" />
-        <option value="$PROJECT_DIR$/src/templates/post.js" />
-        <option value="$PROJECT_DIR$/src/posts/2018/spring-reactjs-websockets-authentication.md" />
-        <option value="$PROJECT_DIR$/gatsby-node.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/post.scss" />
         <option value="$PROJECT_DIR$/src/posts/2018/java-11-codepipeline.md" />
+        <option value="$PROJECT_DIR$/src/posts/2018/codepipeline-jenkins.md" />
+        <option value="$PROJECT_DIR$/src/posts/2018/react-i18n.md" />
+        <option value="$PROJECT_DIR$/src/posts/2018/gatsby-i18n.md" />
+        <option value="$PROJECT_DIR$/src/posts/2018-10-10-spring-react-websockets/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/2018-12-14-gatsby-i18n/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/2018/spring-integration-tcp-connections.md" />
+        <option value="$PROJECT_DIR$/src/posts/2018-12-20_codebuild-github-status/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/codebuild-github-status/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/gatsby-i18n/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/java-11-codepipeline/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/spring-hoc/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/spring-integration-tcp/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/spring-react-websockets/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/2018/spring-reactjs-websockets-authentication.md" />
+        <option value="$PROJECT_DIR$/src/posts/spring-reactjs/spring-reactjs-websockets-authentication.md" />
+        <option value="$PROJECT_DIR$/src/templates/post.js" />
+        <option value="$PROJECT_DIR$/src/templates/tags.js" />
+        <option value="$PROJECT_DIR$/src/components/SharePost.js" />
+        <option value="$PROJECT_DIR$/src/templates/blog-post.js" />
+        <option value="$PROJECT_DIR$/src/components/PostItemList.jsx" />
+        <option value="$PROJECT_DIR$/src/components/PostItem.jsx" />
+        <option value="$PROJECT_DIR$/src/templates/blog-tag-template.js" />
+        <option value="$PROJECT_DIR$/gatsby-node.js" />
+        <option value="$PROJECT_DIR$/src/posts/spring-i18n-simplelocalize/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/react-i18n-simplelocalize/index.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/src/posts/codepipeline-affordable-ci-cd-tool/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/build-java-11-applications-with-codebuild/index.md" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/templates/blog-post-template.js" />
+        <option value="$PROJECT_DIR$/src/components/PostHero.js" />
+        <option value="$PROJECT_DIR$/src/components/Layout.js" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/posts/second-post/spring-react-websockets-with-auth.md" />
+        <option value="$PROJECT_DIR$/src/posts/second-post/index.md" />
+        <option value="$PROJECT_DIR$/src/posts/first-post/index.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1598" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="820" />
+    <option name="width" value="1713" />
+    <option name="height" value="1349" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,7 +269,7 @@
               <item name="blog.jpomykala.me" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog.jpomykala.me" type="b2602c69:ProjectViewProjectNode" />
@@ -185,15 +294,14 @@
               <item name="blog.jpomykala.me" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="first-post" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog.jpomykala.me" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog.jpomykala.me" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="second-post" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog.jpomykala.me" type="b2602c69:ProjectViewProjectNode" />
@@ -206,12 +314,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544221030259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544612086874" />
     <property name="jsgraphql-schema-editor-notification" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -224,19 +334,28 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/posts/2018/img" />
-      <recent name="$PROJECT_DIR$/src/posts/2018" />
-      <recent name="$PROJECT_DIR$/src/templates" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/posts/2018" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/posts/second-post" />
+      <recent name="$PROJECT_DIR$/src/posts/first-post" />
+      <recent name="$PROJECT_DIR$/src/posts/spring-reactjs" />
+      <recent name="$PROJECT_DIR$/src/posts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/posts/2018/img" />
-      <recent name="$PROJECT_DIR$/src/templates" />
-      <recent name="$PROJECT_DIR$/src/pages" />
-      <recent name="$PROJECT_DIR$/src/posts/2018" />
-      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/posts/react-i18n-simplelocalize" />
+      <recent name="$PROJECT_DIR$/src/posts" />
+      <recent name="$PROJECT_DIR$/src/posts/spring-hoc" />
+      <recent name="$PROJECT_DIR$/src/posts/spring-integration-tcp" />
+      <recent name="$PROJECT_DIR$/src/posts/spring-i18n-simplelocalize" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="npm rebuild" />
+      <command value="yarn add gatsby-plugin-twitter" />
+      <command value="yarn add gatsby-plugin-feed" />
+      <command value="yarn add gatsby-plugin-google-analytics" />
+      <command value="yarn install" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -308,6 +427,12 @@
       <workItem from="1542836667765" duration="801000" />
       <workItem from="1542922200054" duration="251000" />
       <workItem from="1544208864775" duration="4527000" />
+      <workItem from="1544225586992" duration="225000" />
+      <workItem from="1544393324042" duration="1571000" />
+      <workItem from="1544438372139" duration="2380000" />
+      <workItem from="1544524161227" duration="14261000" />
+      <workItem from="1548538630465" duration="4319000" />
+      <workItem from="1561671158542" duration="2887000" />
     </task>
     <task id="LOCAL-00001" summary="i don't remember">
       <created>1542465018938</created>
@@ -344,45 +469,63 @@
       <option name="project" value="LOCAL" />
       <updated>1544221026885</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="remove post">
+      <created>1544225602806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544225602806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new post">
+      <created>1544225636017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544225636017</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58010000" />
+    <option name="totallyTimeSpent" value="83653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="1598" y="23" width="1713" height="1349" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18454936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24476361" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22048193" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41050118" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45303866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49970812" weight="0.32919708" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49970812" weight="0.32856005" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="RNConsole" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49970812" weight="0.29708028" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49970812" weight="0.29673827" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5002919" side_tool="true" weight="0.29854015" />
-      <window_info anchor="bottom" id="GraphQL" order="13" weight="0.19277108" />
-      <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="GraphQL" order="13" weight="0.19252187" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32991317" />
+      <window_info anchor="bottom" id="CheckStyle" order="15" />
+      <window_info anchor="bottom" id="Regex Tester" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18311875" />
@@ -420,6 +563,7 @@
     <MESSAGE value="add tags" />
     <MESSAGE value="ui improvements &amp; similar posts" />
     <MESSAGE value="improve similar posts" />
+    <MESSAGE value="remove post" />
     <MESSAGE value="new post" />
     <option name="LAST_COMMIT_MESSAGE" value="new post" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
@@ -427,36 +571,48 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/layout.css" />
-    <entry file="file://$PROJECT_DIR$/src/templates/Template.jsx" />
-    <entry file="file://$PROJECT_DIR$/posts/2018-10-19.md" />
-    <entry file="file://$PROJECT_DIR$/node_modules/prismjs/themes/prism-solarizedlight.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1043" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/posts/2018/test.jpeg" />
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/Footer.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/PageLayout.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/assets/img/header.jpg">
+    <entry file="file://$PROJECT_DIR$/src/posts/gatsby-i18n-simplelocalize/simplelocalize.png" />
+    <entry file="file://$PROJECT_DIR$/src/posts/first-post/docker-run-mvn.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/posts/2018/img/aws-codepipeline.jpg">
+    <entry file="file://$PROJECT_DIR$/src/posts/first-post/ecr-permissions.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MorePosts.jsx" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+    <entry file="file://$PROJECT_DIR$/src/posts/first-post/pushing-to-ecr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/index.md" />
+    <entry file="file://$PROJECT_DIR$/src/posts/2018/codepipeline-jenkins.md" />
+    <entry file="file://$PROJECT_DIR$/src/posts/spring-reactjs/spring-react.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/posts/spring-reactjs/index.md" />
+    <entry file="file://$PROJECT_DIR$/src/posts/spring-higher-order-components-introduction/index.md" />
+    <entry file="file://$PROJECT_DIR$/src/posts/spring-i18n-simplelocalize/index.md" />
+    <entry file="file://$PROJECT_DIR$/src/posts/spring-integration-tcp/index.md" />
+    <entry file="file://$PROJECT_DIR$/src/posts/gatsby-i18n-simplelocalize/index.md" />
+    <entry file="file://$PROJECT_DIR$/src/posts/react-i18n-simplelocalize/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.prettierrc">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/post.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-ssr.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -467,37 +623,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-ssr.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicon.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/404.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/me.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/categories.js" />
-    <entry file="file://$PROJECT_DIR$/src/pages/categories.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PostHero.scss" />
     <entry file="file://$PROJECT_DIR$/src/assets/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/codepipeline-affordable-ci-cd-tool/aws-codepipeline.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/first-post/codebuild-environment.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/404.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tags.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/2018/java-11-codepipeline.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="60">
+            <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/codepipeline-affordable-ci-cd-tool/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PostItemList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PostItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SharePost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/2018/spring-integration-tcp-connections.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/2018/spring-reactjs-websockets-authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1904" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/2018/spring-hoc.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/blog-post-template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="76" selection-start-line="76" selection-end-line="78" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/blog-tag-template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/first-post/header.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HomeLink.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -508,83 +772,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeLink.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/PostHero.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PostItems.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SharePost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/posts/2018/spring-hoc.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/posts/2018/spring-integration-tcp-connections.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/tags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#40#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PostItemList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PostItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -593,77 +784,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PostHero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/posts/first-post/example-image.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="37" column="83" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="83" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/posts/second-post/spring-react.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/posts/2018/codepipeline-jenkins.md">
+    <entry file="file://$PROJECT_DIR$/src/posts/second-post/header.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/second-post/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/posts/2018/spring-reactjs-websockets-authentication.md">
+    <entry file="file://$PROJECT_DIR$/src/posts/second-post/header.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/header.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/first-post/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-1727">
-            <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="99" column="14" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/posts/2018/java-11-codepipeline.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>

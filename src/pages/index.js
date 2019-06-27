@@ -10,9 +10,14 @@ const IndexPage = ({data}) => {
   return (
     <Layout>
       <Header/>
-      {edges.map(edge => edge.node.frontmatter).map(p => (
-        <PostHero data={p}/>
-      ))}
+      {edges.map(edge => edge.node).map(node => {
+        return (
+          <PostHero
+            key={node.frontmatter.title}
+            link={node.fields.slug}
+            data={node.frontmatter}/>
+        );
+      })}
     </Layout>
   );
 };
@@ -28,10 +33,12 @@ export const pageQuery = graphql`
         ) {
             edges {
                 node {
+                    fields {
+                        slug
+                    }
                     frontmatter {
                         date(formatString: "YYYY-MM-DD")
                         title
-                        path
                         tags
                         image {
                             publicURL

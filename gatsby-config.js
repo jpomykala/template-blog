@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'jpomykala.me',
+    title: 'jpomykala.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -77,6 +77,6 @@ module.exports = {
         maxWidth: 1080,
       },
     },
-    'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline',
   ],
 };

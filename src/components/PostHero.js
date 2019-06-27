@@ -1,12 +1,13 @@
 import React from 'react';
 import moment from 'moment';
+import get from "lodash/get";
 import {Link} from '@reach/router';
 
-const PostHero = ({data}) => {
-  const image = data.image.publicURL;
+const PostHero = ({data, link}) => {
+  const image = get(data, 'image.publicURL', '');
   return (
     <div className="post-hero">
-      <Link to={data.path}>
+      <Link to={link}>
         <img src={image}/>
         <div className="post-hero__container">
           <h1 className="post-hero__title" dangerouslySetInnerHTML={{__html: data.title}}/>
