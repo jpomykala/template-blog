@@ -1,8 +1,16 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
+
+# Screenshots
+
+### Home
+![1](https://i.imgur.com/dOpJsDX.png)
+
+### Single Post
+![1](https://i.imgur.com/x4KJX6w.png)
+
+### Tag page
+![1](https://i.imgur.com/cmSBvzq.png)
+
+
 <h1 align="center">
   Gatsby's default starter
 </h1>
