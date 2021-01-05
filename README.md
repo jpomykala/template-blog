@@ -1,3 +1,8 @@
+# Say thanks if you like it!
+Hey, I provide simple and user-friendly [service for managaing translations](https://simplelocalize.io) I would be thankful if you spread this information on your Twitter and mention us: [@simplelocalize](https://twitter.com/simplelocalize)
+
+## Thank you! 💕
+
 
 # Screenshots
 
@@ -17,6 +22,7 @@ Clone repo, and hit:
 npm install
 npm run develop
 ```
+
 
 
 <h1 align="center">
