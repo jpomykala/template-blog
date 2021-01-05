@@ -12,7 +12,11 @@
 
 # Quick start
 
-Clone repo, and hit `$ npm install && npm run develop`
+Clone repo, and hit: 
+```bash
+npm install
+npm run develop
+```
 
 
 <h1 align="center">
