@@ -10,6 +10,10 @@
 ### Tag page
 ![1](https://i.imgur.com/cmSBvzq.png)
 
+# Quick start
+
+Clone repo, and hit `$ npm install && npm run develop`
+
 
 <h1 align="center">
   Gatsby's default starter
