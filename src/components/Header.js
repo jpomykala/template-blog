@@ -27,17 +27,15 @@ const Header = () => (
       </a>
       <p className="mt-3">
         When I was in high school I launched my first Android application, which
-        was downloaded over 3&nbsp;000&nbsp;000&nbsp;times! Now I'm a startup
-        guy and{' '}
+        was downloaded over 3&nbsp;000&nbsp;000&nbsp;times! Now I'm bootstrapping my &nbsp;
         <a
           href="https://jpomykala.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          contractor
+          own projects
         </a>
-        . Usually every 3 months I start a new project... but I always finish
-        them! 🤪.
+        .
       </p>
     </div>
   </div>
